@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #00466b;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header .navbar h1{
+    color: #00a3f9;
+    margin-left: 50px;
+    font-size: 40px;
+}
+header .navbar a{
+    margin: 0 10px;
+    padding: 0px 1rem 0px 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+header .navbar a:hover{
+    color: #42BEFF;
+}
+/* hero */
+section .hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 30px;
+}
+section .hero-text h1{
+    margin: 50px;
+    font-size: 40px;
+    color: black;
+}
+section .hero-text span{
+    color: #008cd6;
+}
+section .hero-text p{
+    margin: 5px 50px 0px 50px  ;
+    width: 400px;
+}
+section .hero-btn button{
+    margin: 30px 50px;
+    padding: 10px 22px;
+    border-radius: 100px;
+}
+section .first{
+    background: #00a3f9;
+    color: black;
+    text-decoration: none;
+}
+section .second{
+    background: white;
+    color: black;
+    border-radius: 100px;
+    border: 2px solid #00a3f9;
+    text-decoration: none;
+
+}
+section .content-img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+section .content-img img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+section .content-img name{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    width: 250px;
+    height: 200px;
+    padding: .7rem 1rem;
+}
+section .prodect{
+    margin: 50px;
+}
+section .prodects{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+section .prodects img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+ section .prodects p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+section .button{
+    display: flex;
+    margin: 30px 50px;
+    padding: 10px 42px;
+    border-radius: 100px;
+    gap: 40px;
+}
+section .btn1{
+    background: #00a3f9;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    text-decoration: none;
+}
+section .btn2{
+    background: white;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid #00a3f9;
+    text-decoration: none;
+}
+section .btn3{
+    background: #00a3f9;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    text-decoration: none;
+}
+section .btn4{
+    background: white;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid #00a3f9;
+    text-decoration: none;
+}
+
+section .offer{
+    background: #00a3f9;
+    color: black;
+    margin: 60px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+section .offer button{
+    margin-top: 10px;
+    padding: 10px 22px;
+    border-radius: 100px;
+    background: white;
+    color: black;
+    border: 2px solid #black;
+    text-decoration: none;
+
+}
